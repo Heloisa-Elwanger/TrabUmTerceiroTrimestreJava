@@ -28,7 +28,7 @@ public class Veiculo {
     }
    
     public String exibirDados(){
-       
+       return "\nMarca: " + this.marca + "\nModelo: " + this.modelo + "\nAno de fabricação: " + this.anoFabricacao + "\nQuilometragem: " + this.quilometragem;
     }
    
 }
